@@ -1,0 +1,4 @@
+pytest
+fitparse
+pydantic
+PyYAML

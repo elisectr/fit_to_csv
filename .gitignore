@@ -1,0 +1,29 @@
+# Ignore Python bytecode and cache directories
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore egg files and build directories
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore environment directories and files
+.env/
+.env
+/env/
+env.bak/
+
+# Ignore Pytest cache directory
+.pytest_cache/
+
+# Ignore Pytest temporary files
+.cache/
+test_output/
+*.log
+
+
+# Ignore data
+*.csv
+*.fit
