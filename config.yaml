@@ -1,4 +1,7 @@
 modules_to_export:
-  - record
-  - session
   - activity
+  - lap
+  - user_profile
+  - sport
+  - record
+  - gps_metadata

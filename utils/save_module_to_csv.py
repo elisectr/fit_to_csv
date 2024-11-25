@@ -31,7 +31,7 @@ def save_module_to_csv(module_name: str, records: List[Dict[str, any]], base_dir
                 writer.writeheader()
                 writer.writerows(records)
         
-        print(f"Module '{module_name}' exported to {csv_file}")
+        # print(f"Module '{module_name}' exported to {csv_file}")
     except Exception as e:
         print(f"Error exporting module '{module_name}': {e}")
         raise e
